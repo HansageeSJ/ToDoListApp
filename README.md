@@ -1,6 +1,6 @@
-# Angular + .NET TODO (In-Memory)
+# Angular + .NET ToDoListApp (In-Memory)
 
-A simple TODO list app built with Angular 18 and .NET 8 Web API. Data is stored in-memory on the server (no database).
+A simple ToDoListApp built with Angular 18 and .NET 8 Web API. Data is stored in-memory on the server (no database).
 
 ## Requirements
 - .NET 8 SDK
@@ -10,7 +10,12 @@ A simple TODO list app built with Angular 18 and .NET 8 Web API. Data is stored 
 ## Run
 
 ### Backend
-```bash
-cd TodoApi
+
+cd ToDoListApp_Api
 dotnet restore
 dotnet run
+
+### Frontend
+
+cd todo-ui
+ng serve
