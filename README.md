@@ -11,11 +11,11 @@ A simple ToDoListApp built with Angular 18 and .NET 8 Web API. Data is stored in
 
 ### Backend
 
-cd ToDoListApp_Api
-dotnet restore
-dotnet run
+- cd ToDoListApp_Api
+- dotnet restore
+- dotnet run
 
 ### Frontend
 
-cd todo-ui
-ng serve
+- cd todo-ui
+- ng serve
